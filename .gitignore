@@ -2,7 +2,6 @@
 
 # dependencies
 /node_modules
-/build
 
 # testing
 /coverage
@@ -10,5 +9,5 @@
 # production
 /build
 
-.env*
-.log
+*.env*
+*.log

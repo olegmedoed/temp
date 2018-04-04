@@ -10,8 +10,9 @@ module.exports = {
   },
   devtool: "cheap-module-source-map",
   devServer: {
-    contentBase: path.join(__dirname, "build"),
+    contentBase: path.join(__dirname, "public"),
     port: 3000,
+    historyApiFallback: true
   },
   module: {
     rules: [
