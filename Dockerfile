@@ -8,3 +8,5 @@ WORKDIR /app
 COPY ./package.json .
 RUN yarn -s
 COPY . .
+
+ENTRYPOINT ["/sbin/tini", "--"]

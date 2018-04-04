@@ -1,10 +1,10 @@
-import React from "react";
+import * as React from "react";
 import ReactDOM from "react-dom";
 import { Provider } from "react-redux";
 import { BrowserRouter as Router } from "react-router-dom";
-import { applyMiddleware, createStore } from 'redux';
+import { applyMiddleware, createStore } from "redux";
 import { composeWithDevTools } from "redux-devtools-extension";
-import thunk from 'redux-thunk';
+import thunk from "redux-thunk";
 
 import "./index.css";
 import App from "./App";

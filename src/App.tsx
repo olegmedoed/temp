@@ -1,12 +1,8 @@
-import React from "react";
-
+import * as React from "react";
 
 class App extends React.PureComponent<any> {
   render() {
-    return (
-        <div className="App">
-        </div>
-    );
+    return <div className="App" />;
   }
 }
 
