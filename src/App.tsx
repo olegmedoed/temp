@@ -1,4 +1,5 @@
 import * as React from "react";
+import { hot } from "react-hot-reload";
 
 class App extends React.PureComponent<any> {
   render() {
@@ -6,4 +7,4 @@ class App extends React.PureComponent<any> {
   }
 }
 
-export default App;
+export default hot(module)(App);
